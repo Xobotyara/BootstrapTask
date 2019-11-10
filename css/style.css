@@ -1,0 +1,150 @@
+body{
+    font-size: 16px;
+    color: #BEBEBE;
+    background-color: #171717;
+}
+
+a {
+    color: #BEBEBE; 
+}
+
+a:hover{
+    color:#00BEB7;
+    text-decoration: none;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: bold;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 18px;
+    line-height: 26px;
+}
+.bborder{
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #00BEB7;
+}
+.h4-title{
+    color: #00BEB7;
+}
+
+section h4{
+    margin-bottom: 15px;
+}
+
+.navbar{
+    height: 120px;
+    background-color: #171717;
+}
+.navbar-brand{
+    color: #BEBEBE;
+    font-size: 24px;
+    margin-bottom: 4px;
+    font-weight: 500;  
+}
+.navbar-toggler,
+.navbar-collapse{
+    margin-bottom: 6px;
+    background-color: #171717;
+}
+.navbar-collapse a{
+    font-size: 18px;
+}
+.navbar-collapse a:not(:last-child){
+    margin-right: 26px;
+}
+.header__img{
+    margin-top: 215px;
+}
+.header__about div{
+    margin-top: 40px;
+}
+.skills,
+.design,
+.projects{
+        padding-top: 120px;
+        margin-top: -20px;
+        -webkit-background-clip: content-box;
+        background-clip: content-box;
+}
+.design:first-child{
+    margin-top: 200px;
+}
+.design .item{
+    margin-top: 24px;
+}
+.design .item-img{
+    min-height: 295px;
+    background-color: #BEBEBE;
+    text-align: center;
+
+}
+.design .item-img img {
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .design .item-img img:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+  }
+.design .item-title{
+    margin-top: 20px;
+}
+.projects .item{
+    margin-top: 30px;
+    max-width: 200px;
+}
+.projects .item-img{
+    height: 136px;
+    width: 170px;
+    background-color: #BEBEBE;
+}
+.skills ul{
+    padding: 0;
+    list-style: none;
+}
+.skills ul li:before{
+    content: '\25B4';
+    padding-right: 5px;
+    color: #00BEB7;
+    font-size: 24px;
+}
+.contacts{
+    margin-top: 130px;
+}
+#contacts__email{
+    color: #00BEB7;
+}
+
+.contacts__links a:not(:last-child){
+    margin-right: 14px;
+}
+.footer{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1200px;
+}
+}
