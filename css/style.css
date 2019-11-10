@@ -1,6 +1,8 @@
+html{
+    font-size: 16px;
+}
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
     color: #BEBEBE;
     background-color: #171717;
 }
@@ -45,8 +47,8 @@ section h4{
 .navbar-brand{
     color: #BEBEBE;
     font-size: 24px;
+    font-weight: bold; 
     margin-bottom: 4px;
-    font-weight: bold;  
 }
 .navbar-toggler,
 .navbar-collapse{
@@ -76,18 +78,20 @@ section h4{
 .design:first-child{
     margin-top: 200px;
 }
-.design .item{
+.card{
+    border-radius: 0;
+    border: none;
+    background-color: #171717;
     margin-top: 24px;
+    padding: 0 15px;
 }
-.design .item-img{
+.design .card-img-top{
+    border-radius: 0;
+    border: none;
     min-height: 295px;
+    min-width: 100%;
     background-color: #BEBEBE;
-    text-align: center;
 
-}
-.design .item-img img {
-    max-width: 100%;
-    max-height: 100%;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -98,25 +102,28 @@ section h4{
     -moz-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s;
-  }
-  .design .item-img img:hover {
+}
+.design .card-img-top:hover{
     -webkit-filter: none;
     -moz-filter: none;
     -ms-filter: none;
     -o-filter: none;
-    filter: none;
-  }
-.design .item-title{
-    margin-top: 20px;
+    filter: none; 
 }
-.projects .item{
+.card-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+.projects .card{
     margin-top: 30px;
     max-width: 200px;
 }
-.projects .item-img{
-    height: 136px;
-    width: 170px;
+.projects .card-img-top{
+    min-height: 136px;
+    min-width: 100%;
     background-color: #BEBEBE;
+    border-radius: 0;
+    border: none;
 }
 .skills ul{
     padding: 0;
